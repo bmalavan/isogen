@@ -14,7 +14,7 @@ var (
 )
 
 func init() {
-	flag.StringVar(&destinationPackageName, "package", "github.com/fgrid/iso20022", "base package name")
+	flag.StringVar(&destinationPackageName, "package", "github.com/figassis/bankiso/iso20022", "base package name")
 	flag.StringVar(&messageType, "message", "", "message type for generation (empty = all)")
 }
 
